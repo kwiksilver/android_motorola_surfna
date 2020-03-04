@@ -3,7 +3,6 @@ ALLOW_MISSING_DEPENDENCIES := true
 LOCAL_PATH := device/motorola/surfna
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
 DEVICE_PATH := device/motorola/surfna
-DEFCONFIG_PATH := kernel/motorola/surfna/arch/arm64/configs/ext_config
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_BOOTLOADER_BOARD_NAME := surfna
